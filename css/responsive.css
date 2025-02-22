@@ -2,6 +2,11 @@
    DK RAP SONG CSS DOCUMENT - UPDATED 2025 - Responsive Design 
    ============================= */
 
+   * {
+    outline: 1px solid red;
+    box-sizing: border-box;
+}
+
 /* =============================
    GLOBAL NAVIGATION STYLES
    ============================= */
@@ -119,7 +124,7 @@
 /* =============================
    Mobile Styles (max-width: 400px)
    ============================= */
-@media (max-width: 1040px) {
+@media (max-width: 400px) {
 
     /* Character Reference Cards - Container */
     .character-reference-grid-container {
@@ -199,7 +204,6 @@
     .three-grid-main-content {
         width: 100%;
         height: auto;
-           overflow-x: hidden;
     }
 }
 
